@@ -1,0 +1,38 @@
+html {
+  overflow: auto;
+}
+
+html,
+body {
+  -ms-content-zooming: none;
+  -ms-overflow-style: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: none;
+}
+
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.top-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: whitesmoke;
+}
+
+p {
+  margin: 0;
+}
