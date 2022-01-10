@@ -4,8 +4,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ScrollToTop from './hooks/scrollToTop';
 
 import Main from './pages/Main';
-import Topic from './pages/Topic';
-import Rule from './pages/Rule';
+import Hackathon from './pages/Hackathon';
+import Prize from './pages/Prize';
 import Staff from './pages/Staff';
 import Navigation from './components/Navigation';
 
@@ -16,8 +16,8 @@ const App = () => {
       <Navigation />
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route exact path="/topic" component={Topic} />
-        <Route exact path="/rule" component={Rule} />
+        <Route exact path="/hackathon" component={Hackathon} />
+        <Route exact path="/prize" component={Prize} />
         <Route exact path="/staff" component={Staff} />
       </Switch>
     </BrowserRouter>
