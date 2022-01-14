@@ -9,3 +9,5 @@
 .env.production.local
 
 *.DS_Store
+yarn.lock
+package-lock.json
