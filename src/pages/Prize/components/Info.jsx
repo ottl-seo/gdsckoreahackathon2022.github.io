@@ -73,7 +73,7 @@ export const qnaInfo = [
     answer: <p>GDSC KR Winter Hack 디스코드 채널과 카카오톡 채널로 연락주시면 친절히 답변드리도록 하겠습니다.</p>,
   },
   {
-    question: 'GDSC KR Winter Hack 디스코드 채널과 카카오톡 채널로 연락주시면 친절히 답변드리도록 하겠습니다.',
+    question: 'Solution Challenge 2022에 제출해도 되나요?',
     answer: <p>네! UN Sustainable Goal 17 내부의 주제이므로 Solution Challenge에 제출하셔도 됩니다.</p>,
   },
   {
