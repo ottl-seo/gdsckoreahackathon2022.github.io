@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import HackathonHeader from './components/HackathonHeader';
+import HackathonSchedule from './components/HackathonSchedule';
 
 const HackathonPageWrapper = styled.div`
   background-color: #1d1d1d;
@@ -54,7 +55,7 @@ const Index = () => {
     <HackathonPageWrapper>
       <GridContainer className="fade-in">
         <HackathonHeader />
-        <div></div>
+        <HackathonSchedule />
       </GridContainer>
     </HackathonPageWrapper>
   );
