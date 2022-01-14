@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import ScrollToTop from './hooks/scrollToTop';
 
@@ -11,7 +11,7 @@ import Navigation from './components/Navigation';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Navigation />
       <Switch>
@@ -20,7 +20,7 @@ const App = () => {
         <Route exact path="/prize" component={Prize} />
         <Route exact path="/staff" component={Staff} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
