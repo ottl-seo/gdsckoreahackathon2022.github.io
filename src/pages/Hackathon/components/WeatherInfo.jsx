@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import styled from 'styled-components';
-const WeatherInfoWrapper = styled.div`
+export const WeatherInfoWrapper = styled.div`
   margin-left: 20px;
   width: 400px;
   height: 95px;

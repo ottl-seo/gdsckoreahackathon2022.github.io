@@ -3,16 +3,18 @@ import styled from 'styled-components';
 import axios from 'axios';
 import useCurrentLocation from '../../../hooks/useCurrentLocation';
 import ImgUrl from '../images/hackathonbackground.png';
-import WeatherInfo from './WeatherInfo';
+import WeatherInfo, { WeatherInfoWrapper } from './WeatherInfo';
 import LocationInfo from './LocationInfo';
 
 import Clock from './Clock';
 
 const HackathonHeaderWrapper = styled.div`
+  width: 100%;
   border-bottom: 1px solid #656565;
   background-image: url(${ImgUrl});
   background-repeat: no-repeat;
   background-position: center bottom;
+  background-size: 100% 300px;
 `;
 const Container = styled.div`
   max-width: 1920px;
@@ -56,7 +58,6 @@ const HackathonHeader = () => {
     const response = await axios.get(
       `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${process.env.REACT_APP_WEATHER_API_KET}&lang=kr`
     );
-    console.log(response.data.weather[0]);
     setWeatherInfo({
       temp: response.data.main.temp,
       icon: response.data.weather[0].icon,
@@ -79,13 +80,6 @@ const HackathonHeader = () => {
       .catch((err) => console.log(err));
   };
 
-  //   useEffect(() => {
-  //     console.log('첫 렌더링');
-  //     // eslint-disable-next-line no-undef
-  //     // console.log(process.env.REACT_APP_WEATHER_API_KET);
-  //     // fetchWeatherBySeoul();
-  //   }, []);
-
   useEffect(() => {
     if (currentLocation) {
       const { latitude, longitude } = currentLocation;
@@ -98,7 +92,7 @@ const HackathonHeader = () => {
     <HackathonHeaderWrapper>
       <Container>
         <WeatherInfoBlock>
-          {weatherInfo ? <WeatherInfo weatherInfo={weatherInfo} /> : <div></div>}
+          {weatherInfo ? <WeatherInfo weatherInfo={weatherInfo} /> : <WeatherInfoWrapper></WeatherInfoWrapper>}
           <LocationInfo locationData={locate} />
         </WeatherInfoBlock>
         <TextBlock>

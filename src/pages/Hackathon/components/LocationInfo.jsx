@@ -4,7 +4,7 @@ import markerUrl from '../images/marker.svg';
 
 const LocationInfoWrapper = styled.div`
   padding-right: 20px;
-  width: 40%;
+  /* width: 40%; */
   display: flex;
   align-items: center;
   justify-content: center;
