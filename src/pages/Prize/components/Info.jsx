@@ -34,29 +34,6 @@ export const prizeInfo = [
   },
 ];
 
-export const judgeInfo = [
-  {
-    img: '',
-    name: 'Minseon Song',
-    role: 'GDSC core',
-  },
-  {
-    img: '',
-    name: 'Minseon Song',
-    role: 'GDSC core',
-  },
-  {
-    img: '',
-    name: 'Minseon Song',
-    role: 'GDSC core',
-  },
-  {
-    img: '',
-    name: 'Minseon Song',
-    role: 'GDSC core',
-  },
-];
-
 export const criteriaInfo = {
   effect: [
     '과제가 해커톤 주제와 부합하는 주제로 제안 되었는지? [10]',
@@ -76,42 +53,35 @@ export const criteriaInfo = {
 
 export const qnaInfo = [
   {
-    question: '팀을 꾸려서 참가 신청을 해야 하나요?',
-    answer: (
-      <p>
-        아닙니다. 팀을 꾸려서 신청가능하지만 개인으로 참가 신청시 팀빌딩을 도와드립니다.
-        <br />
-        최대한 기술스택이 비슷한분과 매칭시켜드릴 예정입니다만 인원이 부족한 경우 섞일 수 있습니다.
-      </p>
-    ),
-  },
-  {
-    question: 'GDSC 멤버가 꼭 팀장이여야하나요?',
-    answer: (
-      <p>
-        아닙니다. 팀을 꾸려서 신청가능하지만 개인으로 참가 신청시 팀빌딩을 도와드립니다.
-        <br />
-        최대한 기술스택이 비슷한분과 매칭시켜드릴 예정입니다만 인원이 부족한 경우 섞일 수 있습니다.
-      </p>
-    ),
-  },
-  {
     question: '주제는 언제 발표되나요?',
-    answer: (
-      <p>
-        아닙니다. 팀을 꾸려서 신청가능하지만 개인으로 참가 신청시 팀빌딩을 도와드립니다.
-        <br />
-        최대한 기술스택이 비슷한분과 매칭시켜드릴 예정입니다만 인원이 부족한 경우 섞일 수 있습니다.
-      </p>
-    ),
+    answer: <p>해커톤 당일에 공개될 예정입니다.</p>,
   },
   {
-    question: '참가 나이제한 있나요?',
+    question: '지원자격은 어떻게 되나요?',
+    answer: <p>개발을 사랑하는 대학생(휴/재학생)이라면 누구나 신청가능합니다.</p>,
+  },
+  {
+    question: 'GDSC 멤버가 꼭 팀장이어야 하나요?',
+    answer: <p>네, GDSC에 소속되신 분께서 팀장을 맡으셔야 합니다.</p>,
+  },
+  {
+    question: 'GDSC 멤버가 아닌 사람은 어떻게 신청하나요?',
+    answer: <p>물리적으로 가까운 GDSC 소속으로 신청하시면 됩니다.</p>,
+  },
+  {
+    question: '추가 질문은 어디로 드려야 하나요?',
+    answer: <p>GDSC KR Winter Hack 디스코드 채널과 카카오톡 채널로 연락주시면 친절히 답변드리도록 하겠습니다.</p>,
+  },
+  {
+    question: 'GDSC KR Winter Hack 디스코드 채널과 카카오톡 채널로 연락주시면 친절히 답변드리도록 하겠습니다.',
+    answer: <p>네! UN Sustainable Goal 17 내부의 주제이므로 Solution Challenge에 제출하셔도 됩니다.</p>,
+  },
+  {
+    question: '해커톤 진행방식은 어떻게 되나요?',
     answer: (
       <p>
-        아닙니다. 팀을 꾸려서 신청가능하지만 개인으로 참가 신청시 팀빌딩을 도와드립니다.
-        <br />
-        최대한 기술스택이 비슷한분과 매칭시켜드릴 예정입니다만 인원이 부족한 경우 섞일 수 있습니다.
+        디스코드를 통해서 행사가 중계 및 진행됩니다.
+        <br />각 팀안에서는 모여서 진행을 해도 좋으나, 모든 팀이 오프라인으로 모여서 진행하지는 않습니다!
       </p>
     ),
   },

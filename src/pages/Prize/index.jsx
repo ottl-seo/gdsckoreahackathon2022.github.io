@@ -104,7 +104,7 @@ const Index = () => {
       <div className="space" />
       <Fade duration={2000}>
         <div className="prize-qna-head wrapper-border">
-          <p className="title">Q & A</p>
+          <p className="title">FAQ</p>
           <p className="sub">궁금한 점이 있으신가요?</p>
         </div>
       </Fade>
