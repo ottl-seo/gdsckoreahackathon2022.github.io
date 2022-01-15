@@ -69,6 +69,7 @@ const Wrapper = styled.div`
     z-index:1;
    margin:-1px;
    padding:1px;
+
   }
   .text-overlay{
     position: absolute;
