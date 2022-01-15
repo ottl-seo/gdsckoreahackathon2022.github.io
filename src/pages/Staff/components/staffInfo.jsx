@@ -41,6 +41,8 @@ const Wrapper = styled.div`
     height:100%;
     maxheight:300px;
     border: 1px solid rgba(200, 200, 200, 0.5);
+    border-left:none;
+    border-top:none;
     margin: 0;
   }
   .blank-space{
@@ -49,12 +51,16 @@ const Wrapper = styled.div`
     height:100%;
     maxheight:300px;
     border: 1px solid rgba(200, 200, 200, 0.5);
+    border-left:none;
+    border-top:none;
   }
 
   .img-container{
     display:inline-block;
     position: relative;
     border: 1px solid rgba(200, 200, 200, 0.5);
+    border-left:none;
+    border-top:none;
     width:18%;
     height:100%;
     maxheight:300px;
