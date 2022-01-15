@@ -259,7 +259,7 @@ const staffData2=[
 const staffData3=[
     {
         img: CAU_C,
-        name: 'Yonju Cho',
+        name: 'Yongju Cho',
         role: 'GDSC CAU Core',
       },
     {
