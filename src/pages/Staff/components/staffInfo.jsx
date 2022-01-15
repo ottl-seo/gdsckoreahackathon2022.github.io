@@ -212,7 +212,7 @@ const staffData1 = [
     {
       img: STIU_C,
       name: 'Minseon Song',
-      role: 'GDSC Seoultech Lead',
+      role: 'GDSC Seoultech Core',
     },
     {
         img: STIU_L,
