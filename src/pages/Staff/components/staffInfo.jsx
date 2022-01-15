@@ -58,13 +58,18 @@ const Wrapper = styled.div`
     width:18%;
     height:100%;
     maxheight:300px;
+    z-index:2;
+    overflow:hidden;
   }
   img{
     width:100%;
     height:100%;
     filter: blur(4px) brightness(30%);
     object-fit:cover;
-  
+    z-index:1;
+   margin:-1px;
+   padding:1px;
+
   }
   .text-overlay{
     position: absolute;
