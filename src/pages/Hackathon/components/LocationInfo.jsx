@@ -3,8 +3,7 @@ import styled from 'styled-components';
 import markerUrl from '../images/marker.svg';
 
 const LocationInfoWrapper = styled.div`
-  padding-right: 20px;
-  /* width: 40%; */
+  padding-right: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,6 +11,8 @@ const LocationInfoWrapper = styled.div`
   color: #ffffff;
   font-size: 27px;
   height: 95px;
+  white-space: nowrap;
+
   img {
     position: relative;
     top: 2px;
