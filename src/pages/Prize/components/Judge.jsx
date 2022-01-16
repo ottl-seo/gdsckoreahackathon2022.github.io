@@ -122,6 +122,19 @@ const Wrapper = styled.div`
       }
     }
   }
+
+  .later {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    span {
+      margin-top: 100%;
+      font-size: 30px;
+      color: white;
+    }
+  }
 `;
 
 const Judge = () => {
@@ -133,17 +146,23 @@ const Judge = () => {
       </div>
       <div className="col-2">
         <div className="row row-border item-border">
-          <div className="judge-item">
+          {/* <div className="judge-item">
             <img src={'https://dummyimage.com/350X280/000/fff'} alt="." />
             <span>누구야</span>
             <p>누구야!!!</p>
+          </div> */}
+          <div className="later">
+            <span>추후 공개 예정</span>
           </div>
         </div>
         <div className="row item-border">
-          <div className="judge-item">
+          {/* <div className="judge-item">
             <img src={'https://dummyimage.com/350X280/000/fff'} alt="." />
             <span>누구야</span>
             <p>누구야!!!</p>
+          </div> */}
+          <div className="later">
+            <span>추후 공개 예정</span>
           </div>
         </div>
       </div>
@@ -155,17 +174,23 @@ const Judge = () => {
       </div>
       <div className="col-2">
         <div className="row row-border item-border">
-          <div className="judge-item">
+          {/* <div className="judge-item">
             <img src={'https://dummyimage.com/350X280/000/fff'} alt="." />
             <span>누구야</span>
             <p>누구야!!!</p>
+          </div> */}
+          <div className="later">
+            <span>추후 공개 예정</span>
           </div>
         </div>
         <div className="row item-border">
-          <div className="judge-item">
+          {/* <div className="judge-item">
             <img src={'https://dummyimage.com/350X280/000/fff'} alt="." />
             <span>누구야</span>
             <p>누구야!!!</p>
+          </div> */}
+          <div className="later">
+            <span>추후 공개 예정</span>
           </div>
         </div>
       </div>
