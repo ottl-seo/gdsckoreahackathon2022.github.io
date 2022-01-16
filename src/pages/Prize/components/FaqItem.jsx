@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     align-items: center;
 
     p {
-      font-size: 30px;
+      font-size: 25px;
       line-height: 40px;
       color: #ffffff;
     }

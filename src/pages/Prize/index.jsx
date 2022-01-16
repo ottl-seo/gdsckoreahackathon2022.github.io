@@ -54,7 +54,7 @@ const Wrapper = styled.div`
 
   .prize-qna-head {
     width: 100%;
-    padding: 40px 0px;
+    padding: 60px 0px;
 
     p {
       text-align: center;
