@@ -56,7 +56,7 @@ const HackathonHeader = () => {
 
   const fetchWeatherByGPS = async (latitude, longitude) => {
     const response = await axios.get(
-      `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${process.env.REACT_APP_WEATHER_API_KET}&lang=kr`
+      `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${process.env.REACT_APP_WEATHER_API_KET}&lang=kr`
     );
     setWeatherInfo({
       temp: response.data.main.temp,
