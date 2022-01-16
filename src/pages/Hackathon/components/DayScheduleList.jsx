@@ -1,14 +1,19 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import ScheduleItem from './ScheduleItem';
 
 const DayScheduleListWrapper = styled.div`
   width: auto;
   height: 100%;
-  border-left: 1px solid #656565;
+
   display: grid;
   grid-template-rows: 1fr 2fr;
+  ${(props) =>
+    props.day === 'DAY2' &&
+    css`
+      border-left: 1px solid #656565;
+    `}
 `;
 const DayBlock = styled.div`
   color: #ffffff;
@@ -33,7 +38,7 @@ const ColorBlock = styled.div`
 
 const DayScheduleList = ({ program, day }) => {
   return (
-    <DayScheduleListWrapper>
+    <DayScheduleListWrapper day={day}>
       <DayBlock>
         <ColorBlock day={day} />
         {day}

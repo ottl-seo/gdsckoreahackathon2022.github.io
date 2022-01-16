@@ -6,7 +6,7 @@ import HackathonSchedule from './components/HackathonSchedule';
 
 const HackathonPageWrapper = styled.div`
   background-color: #1d1d1d;
-  height: calc(100% - 50px);
+  height: calc(100% - 61px);
   width: 100%;
   .fade-in {
     animation: fadein 2s;

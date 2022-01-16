@@ -4,19 +4,28 @@ import DayScheduleList from './DayScheduleList';
 import HorizontalScroll from 'react-scroll-horizontal';
 
 const ScheduleWrapper = styled.div`
-  padding-left: 100px;
   box-sizing: border-box;
   width: auto;
   height: 100%;
   display: flex;
-  overflow: hidden;
+  overflow-x: hidden;
+  .scroll-horizontal {
+    overflow-x: scroll !important;
+  }
+
   z-index: 10;
+`;
+const BorderBlock = styled.div`
+  width: 100px;
+  height: 100%;
+  border-right: 1px solid #656565;
 `;
 
 const HackathonSchedule = () => {
   return (
     <ScheduleWrapper className="fade-in">
-      <HorizontalScroll>
+      <BorderBlock />
+      <HorizontalScroll className="scrollbar">
         <DayScheduleList program={Day1Program} day="DAY1" />
         <DayScheduleList program={Day2Program} day="DAY2" />
       </HorizontalScroll>
@@ -48,7 +57,7 @@ const Day2Program = [
     summary2: '이미지 게임',
   },
   {
-    time: '03:00 ~ 00:30',
+    time: '03:00 ~ 03:30',
     title: '게임 3',
     summary1: '신서유기에 핫한 게임을 여기서도?!',
     summary2: '인물맞추기',
@@ -60,15 +69,15 @@ const Day2Program = [
     summary2: 'WINTER HACK 심사안내',
   },
   {
-    time: '12:00 ~ 14:00',
+    time: '12:00 ~ 14:30',
     title: '심사',
     summary1: '2022 GDSC KR',
-    summary2: 'WINTER HACK 심사안내',
+    summary2: 'WINTER HACK 심사',
   },
   {
-    time: '14:00 ~ 15:00',
+    time: '14:30 ~ 15:00',
     title: '마무리 행사',
     summary1: '2022 GDSC KR',
-    summary2: 'WINTER HACK 마무리 행사?',
+    summary2: 'WINTER HACK 마무리 행사',
   },
 ];
