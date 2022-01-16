@@ -28,10 +28,54 @@ body {
 
 .top-navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 50px;
-  background-color: whitesmoke;
+  height: 60px;
+  background-color: rgb(29, 29, 29);
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+.top-navigation a {
+  color: #aaaaaa;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.top-navigation a:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.title {
+  display: flex;
+  height: 60px;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.title-container {
+  width: 505.41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-family: 'Hahmlet', serif;
+  font-size: 15pt;
+}
+
+.space-left {
+  width: 5vw;
+  height: 60px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.space-right {
+  width: 5vw;
+  height: 60px;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 p {
