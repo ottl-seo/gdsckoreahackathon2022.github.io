@@ -130,7 +130,7 @@ const CriteriaItem = () => {
         <span>
           CRITERIA OF
           <br />
-          JEDGING
+          JUDGING
         </span>
         <p>winter hack의 심가기준은 두가지로 나뉘어 심사합니다.</p>
       </div>
