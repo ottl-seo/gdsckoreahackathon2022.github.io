@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0d862f86.css",
-    "main.js": "/static/js/main.f9d8229b.js",
+    "main.js": "/static/js/main.03874993.js",
     "static/js/787.501d1d93.chunk.js": "/static/js/787.501d1d93.chunk.js",
     "static/media/숙명여대_CORE_장현애.jpg": "/static/media/숙명여대_CORE_장현애.9a5786576989eb333b37.jpg",
     "static/media/성신여대_MEMB_이지원.jpg": "/static/media/성신여대_MEMB_이지원.d5098c509550efe560dc.jpg",
@@ -29,11 +29,11 @@
     "static/media/marker.svg": "/static/media/marker.bbe3382ed0ad17ff39dd73e3e54782bb.svg",
     "static/media/star.svg": "/static/media/star.69fc712b3f75be4845e14d846381d3c0.svg",
     "main.0d862f86.css.map": "/static/css/main.0d862f86.css.map",
-    "main.f9d8229b.js.map": "/static/js/main.f9d8229b.js.map",
+    "main.03874993.js.map": "/static/js/main.03874993.js.map",
     "787.501d1d93.chunk.js.map": "/static/js/787.501d1d93.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d862f86.css",
-    "static/js/main.f9d8229b.js"
+    "static/js/main.03874993.js"
   ]
 }
