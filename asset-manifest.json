@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.23e7f5d5.css",
-    "main.js": "/static/js/main.5a304f3f.js",
+    "main.css": "/static/css/main.0d862f86.css",
+    "main.js": "/static/js/main.cbbf4a53.js",
     "static/js/787.501d1d93.chunk.js": "/static/js/787.501d1d93.chunk.js",
     "static/media/숙명여대_CORE_장현애.jpg": "/static/media/숙명여대_CORE_장현애.9a5786576989eb333b37.jpg",
     "static/media/성신여대_MEMB_이지원.jpg": "/static/media/성신여대_MEMB_이지원.d5098c509550efe560dc.jpg",
@@ -28,12 +28,12 @@
     "static/media/down.svg": "/static/media/down.2df8c82b57a19bb825dc948e898f8694.svg",
     "static/media/marker.svg": "/static/media/marker.bbe3382ed0ad17ff39dd73e3e54782bb.svg",
     "static/media/star.svg": "/static/media/star.04249145105fa7d03a1667dc1a7038de.svg",
-    "main.23e7f5d5.css.map": "/static/css/main.23e7f5d5.css.map",
-    "main.5a304f3f.js.map": "/static/js/main.5a304f3f.js.map",
+    "main.0d862f86.css.map": "/static/css/main.0d862f86.css.map",
+    "main.cbbf4a53.js.map": "/static/js/main.cbbf4a53.js.map",
     "787.501d1d93.chunk.js.map": "/static/js/787.501d1d93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23e7f5d5.css",
-    "static/js/main.5a304f3f.js"
+    "static/css/main.0d862f86.css",
+    "static/js/main.cbbf4a53.js"
   ]
 }
