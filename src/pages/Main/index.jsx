@@ -24,6 +24,21 @@ const Wrapper = styled.div`
   .info-box {
     height: 29vh;
   }
+  
+  .line-spacer {
+    height: 29vh;
+    border-left: 1px solid #656565;
+    margin-right: 30px;
+  }
+  
+  .blue-box {
+    position: absolute;
+    left: calc(5vw + 30px);
+    width: 150px;
+    height: 10px;
+    background-color: #4285f4;
+    
+  }
 
   .big-letter {
     font: normal normal normal 80px/102px Hahmlet;
@@ -97,6 +112,7 @@ const Index = () => {
     const ContestInfoComp = () => {
       return (
         <div className="wrapper-border info-box normal-font">
+          <div className="line-spacer"></div>
           <div>
             {contestInfo.map((_, idx) => {
               if (idx % 2 === 1) return;
@@ -138,6 +154,7 @@ const Index = () => {
             </div>
           </div>
         </div>
+        <div className="blue-box"></div>
         <ContestInfo />
         <div className="poster">
           <img src="/gdsc_poster.png" />
