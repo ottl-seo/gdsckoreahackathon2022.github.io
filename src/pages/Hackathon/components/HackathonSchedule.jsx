@@ -25,7 +25,7 @@ const HackathonSchedule = () => {
   return (
     <ScheduleWrapper className="fade-in">
       <BorderBlock />
-      <HorizontalScroll className="scrollbar">
+      <HorizontalScroll className="scrollbar" reverseScroll={true}>
         <DayScheduleList program={Day1Program} day="DAY1" />
         <DayScheduleList program={Day2Program} day="DAY2" />
       </HorizontalScroll>
