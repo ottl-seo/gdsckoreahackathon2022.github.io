@@ -26,13 +26,13 @@ const Wrapper = styled.div`
   .img-rows{
     display:flex;
       width:100%;
-      height:230px;
+      height:12vw;
       margin: 0;
   }
   .blank-rows{
     display:flex;
       width:100%;
-      height:50px;
+      height:2.5vw;
       margin: 0;
   }
   .blank-item{
@@ -101,6 +101,7 @@ const Wrapper = styled.div`
     top: 45%;
     left: 50%;
     width:90%;
+    clear:both;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -113,6 +114,7 @@ const Wrapper = styled.div`
     top: 60%;
     left: 50%;
     width:80%;
+    clear:both;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -262,7 +264,7 @@ const staffData2=[
       },
   {
     img: SSU_L,
-    name: 'Sooyeon Woo',
+    name: 'Suyeon Woo',
     role: 'GDSC SSU Lead',
   },
  
