@@ -13,12 +13,12 @@ const Wrapper = styled.div`
   }
 
   .row-border {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-bottom: 1px solid #656565 !important;
   }
 
   .item-border {
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid #656565;
+    border-right: 1px solid #656565;
   }
 
   .col-1 {

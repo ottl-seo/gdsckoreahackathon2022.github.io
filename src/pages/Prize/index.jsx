@@ -14,12 +14,12 @@ const Wrapper = styled.div`
   padding-bottom: 80px;
 
   .wrapper-border {
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid #656565;
+    border-bottom: 1px solid #656565;
   }
 
   .item-border {
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid #656565;
   }
 
   .prize-icon {
@@ -83,6 +83,7 @@ const Wrapper = styled.div`
 const Index = () => {
   return (
     <Wrapper>
+      <div className="top-padding" />
       <Fade duration={2000}>
         <div className="prize-award-list">
           {prizeInfo.map((item) => (
