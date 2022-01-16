@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 
   .title-box {
     height: 70vh;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid #656565;
   }
 
   .info-box {
@@ -63,7 +63,7 @@ const Wrapper = styled.div`
   }
 
   .poster img {
-    height: 99vh;
+    height: calc(99vh - 60px);
     object-fit: cover;
   }
 `;

@@ -31,7 +31,7 @@ const MainText = styled.div`
 const WeatherInfoBlock = styled.div`
   display: flex;
   justify-content: space-between;
-  padding-top: 66px;
+  padding-top: 126px;
   color: #ffffff;
   @media screen and (max-width: 800px) {
     flex-direction: column;
@@ -59,7 +59,7 @@ const HackathonHeader = () => {
 
   const fetchWeatherByGPS = async (latitude, longitude) => {
     const response = await axios.get(
-      `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${process.env.REACT_APP_WEATHER_API_KET}&lang=kr`
+      `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${process.env.REACT_APP_WEATHER_API_KET}&lang=kr`
     );
     setWeatherInfo({
       temp: response.data.main.temp,
