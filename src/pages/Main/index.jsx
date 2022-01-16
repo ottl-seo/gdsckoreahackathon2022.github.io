@@ -57,7 +57,7 @@ const Wrapper = styled.div`
   .poster {
     align-items: center;
     position: absolute;
-    top: 50px;
+    top: 61px;
     background-color: #ffffff;
     right: 5vw;
   }
