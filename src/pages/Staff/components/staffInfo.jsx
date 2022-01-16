@@ -26,7 +26,7 @@ const Wrapper = styled.div`
   .img-rows{
     display:flex;
       width:100%;
-      height:300px;
+      height:230px;
       margin: 0;
   }
   .blank-rows{
