@@ -96,7 +96,7 @@ const Wrapper = styled.div`
   }
   .staff-name {
     color: white;
-    font-size: 25px;
+    font-size: 1.5vw;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -109,7 +109,7 @@ const Wrapper = styled.div`
   }
   .staff-role{
     color: #c4c4c4;
-    font-size: 20px;
+    font-size: 1vw;
     position: absolute;
     top: 60%;
     left: 50%;
