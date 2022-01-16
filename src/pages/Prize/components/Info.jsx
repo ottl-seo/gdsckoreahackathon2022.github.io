@@ -53,10 +53,6 @@ export const criteriaInfo = {
 
 export const qnaInfo = [
   {
-    question: '주제는 언제 발표되나요?',
-    answer: <p>해커톤 당일에 공개될 예정입니다.</p>,
-  },
-  {
     question: '지원자격은 어떻게 되나요?',
     answer: <p>개발을 사랑하는 대학생(휴/재학생)이라면 누구나 신청가능합니다.</p>,
   },
