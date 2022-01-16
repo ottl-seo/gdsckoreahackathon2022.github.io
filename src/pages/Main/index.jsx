@@ -18,11 +18,28 @@ const Wrapper = styled.div`
 
   .title-box {
     height: 70vh;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid #656565;
   }
 
   .info-box {
-    height: 29vh;
+    height: 30vh;
+  }
+  
+  .line-spacer {
+    height: 30vh;
+    border-left: 1px solid #656565;
+    margin-right: 30px;
+  }
+  
+  
+  
+  .blue-box {
+    position: absolute;
+    left: calc(5vw + 30px);
+    width: 150px;
+    height: 10px;
+    background-color: #4285f4;
+    
   }
 
   .big-letter {
@@ -31,7 +48,7 @@ const Wrapper = styled.div`
   }
 
   .sm-letter {
-    font: normal normal normal 20px/30px Noto Sans KR;
+    font: normal normal 300 20px/30px Noto Sans KR;
     letter-spacing: 0px;
   }
 
@@ -53,19 +70,44 @@ const Wrapper = styled.div`
     display: inline-block;
     width: 100px;
   }
+  @media screen and (max-width: 1800px) {
+    .poster {
+      align-items: center;
+      position: relative;
+      background-color: #ffffff;
+      width: 100%;
 
-  .poster {
-    align-items: center;
-    position: absolute;
-    top: 50px;
-    background-color: #ffffff;
-    right: 5vw;
+      img {
+        height: inherit;
+        width: inherit;
+        object-fit: cover;
+      }
+    }
   }
+   @media screen and (min-width: 1800px) {
+     .red-box {
+       position: absolute;
+       width: 10px;
+       height: 150px;
+       bottom: 60px;
+       right: calc(((100vh - 61px) / 1.413) + 5vw);
+       background-color: #EA4335;
+     }
+     .poster {
 
-  .poster img {
-    height: 99vh;
-    object-fit: cover;
-  }
+       align-items: center;
+       position: absolute;
+       top: 61px;
+       background-color: #ffffff;
+       right: 5vw;
+       height: calc(100vh - 61px);
+
+       img {
+         height: inherit;
+         object-fit: cover;
+       }
+     }
+   }
 `;
 
 const Index = () => {
@@ -97,6 +139,7 @@ const Index = () => {
     const ContestInfoComp = () => {
       return (
         <div className="wrapper-border info-box normal-font">
+          <div className="line-spacer"></div>
           <div>
             {contestInfo.map((_, idx) => {
               if (idx % 2 === 1) return;
@@ -138,6 +181,8 @@ const Index = () => {
             </div>
           </div>
         </div>
+        <div className="blue-box"></div>
+        <div className="red-box"></div>
         <ContestInfo />
         <div className="poster">
           <img src="/gdsc_poster.png" />

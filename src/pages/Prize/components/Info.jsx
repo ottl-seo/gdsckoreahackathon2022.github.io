@@ -53,10 +53,6 @@ export const criteriaInfo = {
 
 export const qnaInfo = [
   {
-    question: '주제는 언제 발표되나요?',
-    answer: <p>해커톤 당일에 공개될 예정입니다.</p>,
-  },
-  {
     question: '지원자격은 어떻게 되나요?',
     answer: <p>개발을 사랑하는 대학생(휴/재학생)이라면 누구나 신청가능합니다.</p>,
   },
@@ -70,7 +66,12 @@ export const qnaInfo = [
   },
   {
     question: '추가 질문은 어디로 드려야 하나요?',
-    answer: <p>GDSC KR Winter Hack 디스코드 채널과 카카오톡 채널로 연락주시면 친절히 답변드리도록 하겠습니다.</p>,
+    answer: (
+      <p>
+        GDSC KR Winter Hack <a href="http://pf.kakao.com/_DixkPb">카카오톡 채널</a>과 디스코드 채널로 연락주시면 친절히
+        답변드리도록 하겠습니다.
+      </p>
+    ),
   },
   {
     question: 'Solution Challenge 2022에 제출해도 되나요?',
