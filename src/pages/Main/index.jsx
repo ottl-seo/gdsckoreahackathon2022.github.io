@@ -75,10 +75,11 @@ const Wrapper = styled.div`
     top: 61px;
     background-color: #ffffff;
     right: 5vw;
+    height: calc(100vh - 61px);
   }
 
   .poster img {
-    height: calc(99vh - 60px);
+    height: inherit;
     object-fit: cover;
   }
 `;
