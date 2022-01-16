@@ -10,7 +10,7 @@ const ItemWrapper = styled.div`
   align-items: center;
   box-sizing: border-box;
   font-family: 'Hahmlet', serif;
-  border-right: 1px solid #656565;
+  border-right: ${(props) => (props.noborder ? 'none' : '1px solid #656565')};
 `;
 const FlexWrapper = styled.div`
   width: 250px;
@@ -31,8 +31,9 @@ const SummaryText = styled.div`
 `;
 const ScheduleItem = ({ Item, day }) => {
   const { time, title, summary1, summary2 } = Item;
+  const NonBorderBlock = title === '게임 1';
   return (
-    <ItemWrapper>
+    <ItemWrapper noborder={NonBorderBlock}>
       <FlexWrapper>
         <TimeText day={day}>{time}</TimeText>
         <TitleText>{title}</TitleText>

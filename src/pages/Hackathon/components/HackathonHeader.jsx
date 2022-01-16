@@ -24,14 +24,14 @@ const Container = styled.div`
 const MainText = styled.div`
   color: #ffffff;
   text-align: center;
-  font-size: 43px;
+  font-size: 34px;
   font-family: 'Hahmlet', serif;
   letter-spacing: 0px;
 `;
 const WeatherInfoBlock = styled.div`
   display: flex;
   justify-content: space-between;
-  padding-top: 66px;
+  padding-top: 126px;
   color: #ffffff;
   @media screen and (max-width: 800px) {
     flex-direction: column;
@@ -41,6 +41,9 @@ const WeatherInfoBlock = styled.div`
 `;
 const TextBlock = styled.div`
   padding-top: 50px;
+  @media screen and (max-width: 800px) {
+    padding-bottom: 50px;
+  }
 `;
 
 const geolocationOptions = {
@@ -97,7 +100,7 @@ const HackathonHeader = () => {
         </WeatherInfoBlock>
         <TextBlock>
           <Clock />
-          <MainText>End poverty in all its forms everywhere</MainText>
+          <MainText>Quality Education, Gender Equality, Climate Action</MainText>
         </TextBlock>
       </Container>
     </HackathonHeaderWrapper>
