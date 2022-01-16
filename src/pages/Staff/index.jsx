@@ -21,8 +21,8 @@ const Wrapper = styled.div`
     font-size: 70px;
     text-align:center;
     width: 100%;
-    padding-top:7%;
-    padding-bottom:6%;
+    padding-top:9%;
+    padding-bottom:9%;
     color: #ffffff;
   }
 

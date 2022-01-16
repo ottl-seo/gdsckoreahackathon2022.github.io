@@ -26,7 +26,7 @@ const Wrapper = styled.div`
   .img-rows{
     display:flex;
       width:100%;
-      height:300px;
+      height:230px;
       margin: 0;
   }
   .blank-rows{
@@ -270,7 +270,7 @@ const staffData2=[
 const staffData3=[
     {
         img: CAU_C,
-        name: 'Yongju Cho',
+        name: 'Yongjoo Cho',
         role: 'GDSC CAU Core',
       },
     {
