@@ -51,7 +51,7 @@ const ImageBlock = styled.div`
 
 const WeatherInfo = ({ weatherInfo }) => {
   const { temp, icon, humidity, windSpeed, weather } = weatherInfo;
-  let iconurl = 'http://openweathermap.org/img/w/' + icon + '.png';
+  let iconurl = 'https://openweathermap.org/img/w/' + icon + '.png';
 
   const centigrade = (parseInt(temp) - 273.15).toFixed(0);
   return (
