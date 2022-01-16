@@ -90,7 +90,7 @@ const Index = () => {
             <div className="prize-award-item" key={item.title}>
               <img src={item.icon} className="prize-icon" alt="상 아이콘" />
               <p className="prize-award-title">{item.title}</p>
-              <p className="prize-award-amount">{item.amount}팀</p>
+              {/* <p className="prize-award-amount">{item.amount}팀</p> */}
             </div>
           ))}
         </div>
