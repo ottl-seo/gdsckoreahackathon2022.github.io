@@ -22,13 +22,22 @@ const Wrapper = styled.div`
   }
 
   .info-box {
-    height: 29vh;
+    height: 30vh;
   }
   
   .line-spacer {
-    height: 29vh;
+    height: 30vh;
     border-left: 1px solid #656565;
     margin-right: 30px;
+  }
+  
+  .red-box {
+    position: absolute;
+    width: 10px;
+    height: 150px;
+    bottom: 60px;
+    right: calc(((100vh - 61px) / 1.413) + 5vw);
+    background-color: #EA4335;
   }
   
   .blue-box {
@@ -156,6 +165,7 @@ const Index = () => {
           </div>
         </div>
         <div className="blue-box"></div>
+        <div className="red-box"></div>
         <ContestInfo />
         <div className="poster">
           <img src="/gdsc_poster.png" />
