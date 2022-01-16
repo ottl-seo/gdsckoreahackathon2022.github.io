@@ -1,14 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import logo from './img/logo.png';
 
 const Navigation = () => {
-  //toDo: 민지 => 탭바 구현
+  const activeTab = {
+    color: 'white',
+  };
+
   return (
     <div className="top-navigation">
-      <Link to="/">home</Link>
-      <Link to="/hackathon">Hackathon</Link>
-      <Link to="/prize">PRIZE</Link>
-      <Link to="/staff">STAFF</Link>
+      <div className="space-left"></div>
+      <NavLink to="/" exact activeStyle={activeTab}>
+        HOME
+      </NavLink>
+      <NavLink to="/timetable" activeStyle={activeTab}>
+        TIMETABLE
+      </NavLink>
+      <NavLink to="/hackathon" activeStyle={activeTab}>
+        HACKATHON
+      </NavLink>
+      <NavLink to="/staff" activeStyle={activeTab}>
+        STAFF
+      </NavLink>
+      <div className="title">
+        <div className="title-container">
+          <img src={logo} width="25px" height="25px" style={{ marginRight: '5px' }} alt="logo" />
+          <div className="name">2022 GDSC KR Winter Hack</div>
+        </div>
+        <div className="space-right"></div>
+      </div>
     </div>
   );
 };

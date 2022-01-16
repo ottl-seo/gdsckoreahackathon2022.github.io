@@ -14,12 +14,12 @@ const Wrapper = styled.div`
   padding-bottom: 80px;
 
   .wrapper-border {
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid #656565;
+    border-bottom: 1px solid #656565;
   }
 
   .item-border {
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid #656565;
   }
 
   .prize-icon {
@@ -54,13 +54,13 @@ const Wrapper = styled.div`
 
   .prize-qna-head {
     width: 100%;
-    padding: 40px 0px;
+    padding: 60px 0px;
 
     p {
       text-align: center;
     }
 
-    .title {
+    .faq-title {
       font-size: 70px;
       line-height: 85px;
       color: white;
@@ -83,13 +83,14 @@ const Wrapper = styled.div`
 const Index = () => {
   return (
     <Wrapper>
+      <div className="top-padding" />
       <Fade duration={2000}>
         <div className="prize-award-list">
           {prizeInfo.map((item) => (
             <div className="prize-award-item" key={item.title}>
               <img src={item.icon} className="prize-icon" alt="상 아이콘" />
               <p className="prize-award-title">{item.title}</p>
-              <p className="prize-award-amount">{item.amount}팀</p>
+              {/* <p className="prize-award-amount">{item.amount}팀</p> */}
             </div>
           ))}
         </div>
@@ -104,7 +105,7 @@ const Index = () => {
       <div className="space" />
       <Fade duration={2000}>
         <div className="prize-qna-head wrapper-border">
-          <p className="title">FAQ</p>
+          <p className="faq-title">FAQ</p>
           <p className="sub">궁금한 점이 있으신가요?</p>
         </div>
       </Fade>

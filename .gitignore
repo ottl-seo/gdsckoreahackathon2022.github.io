@@ -7,5 +7,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+
+*.DS_Store
 yarn.lock
 package-lock.json

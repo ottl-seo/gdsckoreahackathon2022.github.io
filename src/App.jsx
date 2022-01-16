@@ -16,8 +16,8 @@ const App = () => {
       <Navigation />
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route exact path="/hackathon" component={Hackathon} />
-        <Route exact path="/prize" component={Prize} />
+        <Route exact path="/timetable" component={Hackathon} />
+        <Route exact path="/hackathon" component={Prize} />
         <Route exact path="/staff" component={Staff} />
       </Switch>
     </HashRouter>

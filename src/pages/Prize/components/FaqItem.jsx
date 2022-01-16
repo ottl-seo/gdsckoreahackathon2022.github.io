@@ -5,7 +5,7 @@ import downIcon from '../img/down.svg';
 
 const Wrapper = styled.div`
   padding: 40px 0px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid #656565;
 
   .qna-question {
     all: unset;
@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     align-items: center;
 
     p {
-      font-size: 30px;
+      font-size: 25px;
       line-height: 40px;
       color: #ffffff;
     }
