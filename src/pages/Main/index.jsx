@@ -31,7 +31,7 @@ const Wrapper = styled.div`
   }
 
   .sm-letter {
-    font: normal normal normal 20px/30px Noto Sans KR;
+    font: normal normal 300 20px/30px Noto Sans KR;
     letter-spacing: 0px;
   }
 
