@@ -60,7 +60,7 @@ const Wrapper = styled.div`
       text-align: center;
     }
 
-    .title {
+    .faq-title {
       font-size: 70px;
       line-height: 85px;
       color: white;
@@ -104,7 +104,7 @@ const Index = () => {
       <div className="space" />
       <Fade duration={2000}>
         <div className="prize-qna-head wrapper-border">
-          <p className="title">FAQ</p>
+          <p className="faq-title">FAQ</p>
           <p className="sub">궁금한 점이 있으신가요?</p>
         </div>
       </Fade>
