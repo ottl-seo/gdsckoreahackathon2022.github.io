@@ -13,7 +13,7 @@ const Wrapper = styled.div`
     right: 0px;
     width: 5%;
     height: 100%;
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid #656565;
   }
 
   ul {
@@ -33,7 +33,7 @@ const Wrapper = styled.div`
   }
 
   .row-border {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid #656565;
   }
 
   .col-1 {
@@ -57,8 +57,8 @@ const Wrapper = styled.div`
 
   .col-2 {
     width: 60%;
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid #656565;
+    border-right: 1px solid #656565;
 
     .row {
       width: 100%;
@@ -107,7 +107,7 @@ const Wrapper = styled.div`
     }
 
     .row-border {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      border-bottom: 1px solid #656565;
     }
   }
 
