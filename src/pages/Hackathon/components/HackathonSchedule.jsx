@@ -9,11 +9,16 @@ const ScheduleWrapper = styled.div`
   height: 100%;
   display: flex;
   overflow-x: hidden;
+
   .scroll-horizontal {
     overflow-x: scroll !important;
   }
 
   z-index: 10;
+
+  .scroll-area {
+    display: inline-flex;
+  }
 `;
 const BorderBlock = styled.div`
   width: 100px;
@@ -25,10 +30,17 @@ const HackathonSchedule = () => {
   return (
     <ScheduleWrapper className="fade-in">
       <BorderBlock />
-      <HorizontalScroll className="scrollbar" reverseScroll={true}>
-        <DayScheduleList program={Day1Program} day="DAY1" />
-        <DayScheduleList program={Day2Program} day="DAY2" />
-      </HorizontalScroll>
+      {screen.width <= 2500 ? (
+        <HorizontalScroll className="scrollbar" reverseScroll={true}>
+          <DayScheduleList program={Day1Program} day="DAY1" />
+          <DayScheduleList program={Day2Program} day="DAY2" />
+        </HorizontalScroll>
+      ) : (
+        <div className="scroll-area">
+          <DayScheduleList program={Day1Program} day="DAY1" />
+          <DayScheduleList program={Day2Program} day="DAY2" />
+        </div>
+      )}
     </ScheduleWrapper>
   );
 };
