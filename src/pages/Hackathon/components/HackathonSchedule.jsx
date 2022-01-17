@@ -8,11 +8,16 @@ const ScheduleWrapper = styled.div`
   height: 100%;
   display: flex;
   overflow-x: hidden;
+
   .scroll-horizontal {
     overflow-x: scroll !important;
   }
 
   z-index: 10;
+
+  .scroll-area {
+    display: inline-flex;
+  }
 `;
 const BorderBlock = styled.div`
   width: 100px;
