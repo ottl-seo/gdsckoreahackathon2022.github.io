@@ -320,7 +320,7 @@ const staffData1 = [
     },
     {
         img: SMU_L,
-        name: 'Jinyook Choi',
+        name: 'Jinuk Choi',
         role: 'GDSC SMU Lead',
       },
       {
