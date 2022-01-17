@@ -90,7 +90,7 @@ const Wrapper = styled.div`
        width: 10px;
        height: 150px;
        bottom: 60px;
-       right: calc(((100vh - 61px) / 1.413) + 5vw);
+       right: calc(((100vh - 61px) / 1.3332) + 5vw);
        background-color: #EA4335;
      }
      .poster {
@@ -185,7 +185,7 @@ const Index = () => {
         <div className="red-box"></div>
         <ContestInfo />
         <div className="poster">
-          <img src="/gdsc_poster.png" />
+          <img src="/gdsc_poster.jpg" />
         </div>
       </Fade>
     </Wrapper>
