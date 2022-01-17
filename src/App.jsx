@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import ScrollToTop from './hooks/scrollToTop';
@@ -10,6 +10,12 @@ import Staff from './pages/Staff';
 import Navigation from './components/Navigation';
 
 const App = () => {
+  useEffect(() => {
+    const widthValue = screen.width;
+    if (widthValue <= 700) {
+      alert('Mobile 환경을 지원하지 않습니다. 원활한 환경을 위하여 PC사용을 권장드립니다.');
+    }
+  });
   return (
     <HashRouter>
       <ScrollToTop />
