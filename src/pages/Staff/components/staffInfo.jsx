@@ -338,8 +338,8 @@ const staffData1 = [
         name: 'Inyeong Kang',
         role: 'GDSC Seoultech Core',
       },
-      
-      
+
+
 ];
 const staffData2=[
   {
@@ -367,8 +367,8 @@ const staffData2=[
         name: 'Jiwon Lee',
         role: 'GDSC SSWU Member',
       },
-     
- 
+
+
 ];
 const staffData3=[
   {
@@ -424,8 +424,8 @@ const staffData4=[
         img: CAU_L,
         name: 'Woohyun Jeong',
         role: 'GDSC CAU Lead',
-      }, 
-    
+      },
+
 ];
 
 const staffData5=[
@@ -454,13 +454,13 @@ const staffData5=[
     name: 'Seonho Park',
     role: 'GDSC KMOU Lead',
   },
-  
+
 ];
 
 const staffData6=[
   {
     img: HYU_L,
-    name: 'Changhyun Lee',
+    name: 'Changhyeon Yoon',
     role: 'GDSC HYU LEAD',
   },
 ];
