@@ -19,19 +19,25 @@ const HackathonHeaderWrapper = styled.div`
 const Container = styled.div`
   max-width: 1920px;
   margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  @media screen and (max-width: 800px) {
+    grid-template-rows: 1fr 1fr;
+  }
 `;
 
 const MainText = styled.div`
   color: #ffffff;
   text-align: center;
-  font-size: 34px;
+  font-size: 40px;
   font-family: 'Hahmlet', serif;
   letter-spacing: 0px;
 `;
 const WeatherInfoBlock = styled.div`
   display: flex;
   justify-content: space-between;
-  padding-top: 126px;
+  align-items: center;
+  padding-top: 10vh;
   color: #ffffff;
   @media screen and (max-width: 800px) {
     flex-direction: column;
@@ -40,10 +46,8 @@ const WeatherInfoBlock = styled.div`
   }
 `;
 const TextBlock = styled.div`
+  width: 100%;
   padding-top: 50px;
-  @media screen and (max-width: 800px) {
-    padding-bottom: 50px;
-  }
 `;
 
 const geolocationOptions = {

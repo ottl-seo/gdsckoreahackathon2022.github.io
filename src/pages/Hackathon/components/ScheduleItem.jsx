@@ -3,8 +3,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ItemWrapper = styled.div`
-  width: 350px;
-  /* padding: 20px;*/
+  min-width: 350px;
+  width: 20vw;
   display: flex;
   justify-content: center;
   align-items: center;

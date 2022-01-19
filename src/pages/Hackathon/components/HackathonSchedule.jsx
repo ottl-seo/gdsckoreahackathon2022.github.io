@@ -4,16 +4,20 @@ import DayScheduleList from './DayScheduleList';
 import HorizontalScroll from 'react-scroll-horizontal';
 
 const ScheduleWrapper = styled.div`
-  box-sizing: border-box;
   width: auto;
   height: 100%;
   display: flex;
   overflow-x: hidden;
+
   .scroll-horizontal {
     overflow-x: scroll !important;
   }
 
   z-index: 10;
+
+  .scroll-area {
+    display: inline-flex;
+  }
 `;
 const BorderBlock = styled.div`
   width: 100px;
@@ -25,7 +29,7 @@ const HackathonSchedule = () => {
   return (
     <ScheduleWrapper className="fade-in">
       <BorderBlock />
-      <HorizontalScroll className="scrollbar">
+      <HorizontalScroll className="scrollbar" reverseScroll={true} pageLock={true}>
         <DayScheduleList program={Day1Program} day="DAY1" />
         <DayScheduleList program={Day2Program} day="DAY2" />
       </HorizontalScroll>

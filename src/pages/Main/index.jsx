@@ -31,14 +31,7 @@ const Wrapper = styled.div`
     margin-right: 30px;
   }
   
-  .red-box {
-    position: absolute;
-    width: 10px;
-    height: 150px;
-    bottom: 60px;
-    right: calc(((100vh - 61px) / 1.413) + 5vw);
-    background-color: #EA4335;
-  }
+  
   
   .blue-box {
     position: absolute;
@@ -77,20 +70,44 @@ const Wrapper = styled.div`
     display: inline-block;
     width: 100px;
   }
+  @media screen and (max-width: 1800px) {
+    .poster {
+      align-items: center;
+      position: relative;
+      background-color: #ffffff;
+      width: 100%;
 
-  .poster {
-    align-items: center;
-    position: absolute;
-    top: 61px;
-    background-color: #ffffff;
-    right: 5vw;
-    height: calc(100vh - 61px);
+      img {
+        height: inherit;
+        width: inherit;
+        object-fit: cover;
+      }
+    }
   }
+   @media screen and (min-width: 1800px) {
+     .red-box {
+       position: absolute;
+       width: 10px;
+       height: 150px;
+       bottom: 60px;
+       right: calc(((100vh - 61px) / 1.3332) + 5vw);
+       background-color: #EA4335;
+     }
+     .poster {
 
-  .poster img {
-    height: inherit;
-    object-fit: cover;
-  }
+       align-items: center;
+       position: absolute;
+       top: 61px;
+       background-color: #ffffff;
+       right: 5vw;
+       height: calc(100vh - 61px);
+
+       img {
+         height: inherit;
+         object-fit: cover;
+       }
+     }
+   }
 `;
 
 const Index = () => {
@@ -168,7 +185,7 @@ const Index = () => {
         <div className="red-box"></div>
         <ContestInfo />
         <div className="poster">
-          <img src="/gdsc_poster.png" />
+          <img src="/gdsc_poster.jpg" />
         </div>
       </Fade>
     </Wrapper>
