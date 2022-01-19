@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import styled from 'styled-components';
 
+import PNU_L from '../img/부산대_LEAD_박상은.JPG';
 import SYU_L from '../img/삼육대_LEAD_성예지.jpg';
 import SMU_L from '../img/상명대_LEAD_최진욱.png';
 import SMU_M1 from '../img/상명대_MEMBER_양은희.JPG';
@@ -10,6 +11,7 @@ import STIU_C1 from '../img/서울과기대_CORE_강인영.jpg';
 import STIU_C2 from '../img/서울과기대_CORE_송민선.jpg';
 import STIU_C3 from '../img/서울과기대_CORE_전의정.jpg';
 import STIU_L from '../img/서울과기대_LEAD_박수빈.jpg';
+import STIU_M from '../img/서울과기대_MEMBER_조인혁.jpeg';
 import SSWU_L from '../img/성신여대_LEAD_김민영.jpg';
 import SSWU_M from '../img/성신여대_MEMB_이지원.jpg';
 import SMWU_C1 from '../img/숙명여대_CORE_강예원.jpeg';
@@ -20,6 +22,7 @@ import SMWU_M from '../img/숙명여대_MEMBER_김민지.PNG';
 import SCHU_L from '../img/순천향대_LEAD_이원영.jpg'
 import SSU_L from '../img/숭실대_LEAD_우수연.jpg';
 import EWU_L from '../img/이화여대_LEAD_김윤서.jpg';
+import IHU_L from '../img/인하대_LEAD_정희재.jpeg';
 import CAU_C from '../img/중앙대_CORE_조용주.jpg';
 import CAU_L from '../img/중앙대_LEAD_정우현.JPG';
 import GIST_L from '../img/지스트_LEAD_김민서.jpeg';
@@ -288,15 +291,6 @@ export default function StaffImageList() {
         <div className="img-container" >
           <img src={blank_img}/>
         </div>
-        <div className="img-container" >
-          <img src={blank_img}/>
-        </div>
-        <div className="img-container" >
-          <img src={blank_img}/>
-        </div>
-        <div className="img-container" >
-          <img src={blank_img}/>
-        </div>
       <div className="blank-space"></div>
     </div>
     <div className="blank-rows">
@@ -314,13 +308,18 @@ export default function StaffImageList() {
 
 const staffData1 = [
     {
+      img: PNU_L,
+      name: 'Sangeun Park',
+      role: 'GDSC PNU Lead',
+    },
+    {
       img: SYU_L,
       name: 'Yeji Seong',
       role: 'GDSC SYU Lead',
     },
     {
         img: SMU_L,
-        name: 'Jinyook Choi',
+        name: 'Jink Choi',
         role: 'GDSC SMU Lead',
       },
       {
@@ -333,15 +332,14 @@ const staffData1 = [
         name: 'Sujeong Lee',
         role: 'GDSC SMU Member',
       },
-      {
-        img: STIU_C1,
-        name: 'Inyeong Kang',
-        role: 'GDSC Seoultech Core',
-      },
-      
       
 ];
 const staffData2=[
+  {
+    img: STIU_C1,
+    name: 'Inyeong Kang',
+    role: 'GDSC Seoultech Core',
+  },
   {
     img: STIU_C2,
     name: 'Minseon Song',
@@ -357,20 +355,25 @@ const staffData2=[
       name: 'Subin Park',
       role: 'GDSC Seoultech Lead',
     },
+    
     {
-      img: SSWU_L,
-      name: 'Minyeong Kim',
-      role: 'GDSC SSWU Lead',
+      img: STIU_M,
+      name: 'Inhyeok Jo',
+      role: 'GDSC Seoultech Member',
     },
-    {
-        img: SSWU_M,
-        name: 'Jiwon Lee',
-        role: 'GDSC SSWU Member',
-      },
-     
  
 ];
 const staffData3=[
+  {
+    img: SSWU_L,
+    name: 'Minyeong Kim',
+    role: 'GDSC SSWU Lead',
+  },
+  {
+      img: SSWU_M,
+      name: 'Jiwon Lee',
+      role: 'GDSC SSWU Member',
+    },
   {
     img: SMWU_C1,
     name: 'Yewon Kang',
@@ -386,6 +389,10 @@ const staffData3=[
     name: 'Hyunae Jang',
     role: 'GDSC SMWU Core',
   },
+  
+];
+
+const staffData4=[
   {
     img: SMWU_L,
     name: 'Sooyeon Nam',
@@ -397,9 +404,6 @@ const staffData3=[
     role: 'GDSC SMWU Member',
   },
 
-];
-
-const staffData4=[
     {
       img: SCHU_L,
       name: 'Wonyoung Lee',
@@ -415,20 +419,26 @@ const staffData4=[
       name: 'Yoonseo Kim',
       role: 'GDSC EWU Lead',
       },
-    {
-        img: CAU_C,
-        name: 'Yongjoo Cho',
-        role: 'GDSC CAU Core',
-      },
-      {
-        img: CAU_L,
-        name: 'Woohyun Jeong',
-        role: 'GDSC CAU Lead',
-      }, 
+    
     
 ];
 
 const staffData5=[
+  {
+    img: IHU_L,
+    name: 'Huijae Jeong',
+    role: 'GDSC EWU Lead',
+    },
+  {
+    img: CAU_C,
+    name: 'Yongjoo Cho',
+    role: 'GDSC CAU Core',
+  },
+  {
+    img: CAU_L,
+    name: 'Woohyun Jeong',
+    role: 'GDSC CAU Lead',
+  }, 
   {
     img: GIST_L,
     name: 'Minseo Kim',
@@ -439,6 +449,10 @@ const staffData5=[
     name: 'Dain Kang',
     role: 'GDSC HUFS Core',
   },
+  
+];
+
+const staffData6=[
   {
     img: HUFS_C2,
     name: 'Donghyeon Ahn',
@@ -455,9 +469,6 @@ const staffData5=[
     role: 'GDSC KMOU Lead',
   },
   
-];
-
-const staffData6=[
   {
     img: HYU_L,
     name: 'Changhyun Lee',
