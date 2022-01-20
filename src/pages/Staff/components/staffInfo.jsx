@@ -417,7 +417,7 @@ const staffData4=[
     {
       img: EWU_L,
       name: 'Yoonseo Kim',
-      role: 'GDSC E Lead',
+      role: 'GDSC Ewha Lead',
       },
     
     
