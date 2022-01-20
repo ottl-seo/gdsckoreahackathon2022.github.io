@@ -427,7 +427,7 @@ const staffData5=[
   {
     img: IHU_L,
     name: 'Huijae Jeong',
-    role: 'GDSC EWU Lead',
+    role: 'GDSC IHU Lead',
     },
   {
     img: CAU_C,
