@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.566cbbb9.css",
-    "main.js": "/static/js/main.4cef79e7.js",
+    "main.js": "/static/js/main.993b2095.js",
     "static/js/787.501d1d93.chunk.js": "/static/js/787.501d1d93.chunk.js",
     "static/media/한국해양대_LEAD_박선호.jpg": "/static/media/한국해양대_LEAD_박선호.4b11da94775f48f7a9ab.jpg",
     "static/media/숙명여대_CORE_장현애.jpg": "/static/media/숙명여대_CORE_장현애.9a5786576989eb333b37.jpg",
@@ -13,6 +13,8 @@
     "static/media/한국외대_CORE_강다인.jpg": "/static/media/한국외대_CORE_강다인.9c166fc9929adba402c1.jpg",
     "static/media/상명대_MEMBER_양은희.JPG": "/static/media/상명대_MEMBER_양은희.ead8646d7c933e0af5bf.JPG",
     "static/media/서울과기대_CORE_강인영.jpg": "/static/media/서울과기대_CORE_강인영.4209f7971dab9f2bd340.jpg",
+    "static/media/인하대_LEAD_정희재.jpeg": "/static/media/인하대_LEAD_정희재.83db226d97dddf1daaca.jpeg",
+    "static/media/서울과기대_MEMBER_조인혁.jpeg": "/static/media/서울과기대_MEMBER_조인혁.3653840741eb45b55b1e.jpeg",
     "static/media/삼육대_LEAD_성예지.jpg": "/static/media/삼육대_LEAD_성예지.7ae18b81a0b591b03c1f.jpg",
     "static/media/성신여대_LEAD_김민영.jpg": "/static/media/성신여대_LEAD_김민영.188b69f9f637ce641909.jpg",
     "static/media/중앙대_CORE_조용주.jpg": "/static/media/중앙대_CORE_조용주.b64a3b2e7ca967b26574.jpg",
@@ -28,24 +30,25 @@
     "static/media/숙명여대_MEMBER_김민지.PNG": "/static/media/숙명여대_MEMBER_김민지.94d166e6ddbfa8dffb71.PNG",
     "static/media/지스트_LEAD_김민서.jpeg": "/static/media/지스트_LEAD_김민서.db3cfb7cbd8603ec33da.jpeg",
     "static/media/상명대_LEAD_최진욱.png": "/static/media/상명대_LEAD_최진욱.7798d7b50ed46dc8f7a2.png",
+    "static/media/부산대_LEAD_박상은.JPG": "/static/media/부산대_LEAD_박상은.0d7e6a3e93e8967a7118.JPG",
     "static/media/logo.png": "/static/media/logo.b4542c8d3f4e0e9338ec.png",
     "static/media/이화여대_LEAD_김윤서.jpg": "/static/media/이화여대_LEAD_김윤서.5e9d8b5f2470415fae28.jpg",
     "static/media/hackathonbackground.png": "/static/media/hackathonbackground.b61db7c6dba8d335286d.png",
     "static/media/dummy.JPG": "/static/media/dummy.ac0042911462f142cb27.JPG",
     "index.html": "/index.html",
-    "static/media/medal.svg": "/static/media/medal.d78ed8677c8984b8be69e54df767d959.svg",
-    "static/media/trophy.svg": "/static/media/trophy.86f371e4c421b173001ac136ff4d5a7f.svg",
-    "static/media/crown.svg": "/static/media/crown.7afc5a69956004a2539ad902e4b0e97b.svg",
-    "static/media/smile.svg": "/static/media/smile.94dcb2e32cc3d1c494ca74c082024d1a.svg",
-    "static/media/down.svg": "/static/media/down.2df8c82b57a19bb825dc948e898f8694.svg",
+    "static/media/medal.svg": "/static/media/medal.e9a1666ca1cf86fd55544ee8bab5e29f.svg",
+    "static/media/trophy.svg": "/static/media/trophy.1415399155a418c25ac68499f6b5f362.svg",
+    "static/media/crown.svg": "/static/media/crown.9d4ec8285ffb65115c7a1ac9cc9f33d8.svg",
+    "static/media/smile.svg": "/static/media/smile.d65f67bb530fccfcc1dee882498338cc.svg",
+    "static/media/down.svg": "/static/media/down.75508128b56b1732e8fb31169d8680d5.svg",
     "static/media/marker.svg": "/static/media/marker.bbe3382ed0ad17ff39dd73e3e54782bb.svg",
-    "static/media/star.svg": "/static/media/star.04249145105fa7d03a1667dc1a7038de.svg",
+    "static/media/star.svg": "/static/media/star.69fc712b3f75be4845e14d846381d3c0.svg",
     "main.566cbbb9.css.map": "/static/css/main.566cbbb9.css.map",
-    "main.4cef79e7.js.map": "/static/js/main.4cef79e7.js.map",
+    "main.993b2095.js.map": "/static/js/main.993b2095.js.map",
     "787.501d1d93.chunk.js.map": "/static/js/787.501d1d93.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.566cbbb9.css",
-    "static/js/main.4cef79e7.js"
+    "static/js/main.993b2095.js"
   ]
 }
