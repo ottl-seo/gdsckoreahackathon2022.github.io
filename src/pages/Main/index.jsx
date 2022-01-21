@@ -50,6 +50,9 @@ const Wrapper = styled.div`
   .sm-letter {
     font: normal normal 300 20px/30px Noto Sans KR;
     letter-spacing: 0px;
+    a {
+      color: white;
+    }
   }
 
   .sm-letter + .sm-letter {
@@ -158,6 +161,12 @@ const Index = () => {
                 </div>
               );
             })}
+            <div key={`ct-info-${contestInfo.length -1}`}>
+                  <span className="sm-letter">
+                    <span className="blue-font">모집링크</span>
+                    <a href="https://www.wanted.co.kr/events/gdsckrwinterhackathon2022">해커톤 신청</a>
+                  </span>
+            </div>
           </div>
         </div>
       );

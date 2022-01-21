@@ -20,8 +20,5 @@ export const contestInfo = [
     content: '팀장(GDSC member) 외 최대 3명',
   },
   {},
-  {
-    title: '모집링크',
-    content: '19일 공개예정'
-  }
+
 ];
