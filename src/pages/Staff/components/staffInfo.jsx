@@ -366,7 +366,7 @@ const staffData2=[
 const staffData3=[
   {
     img: SSWU_L,
-    name: 'Minyeong Kim',
+    name: 'Minyoung Kim',
     role: 'GDSC SSWU Lead',
   },
   {
