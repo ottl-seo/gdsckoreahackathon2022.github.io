@@ -7,7 +7,7 @@ const Wrapper = styled.div`
     height: 26vw;
 
     .project-thumbnail {
-      width: 45vw;
+      width: 42.7vw;
       height: 100%;
       opacity: 1;
       z-index: -999;
@@ -19,7 +19,7 @@ const Wrapper = styled.div`
     }
 
     .project-content {
-      width: 45vw;
+      width: 47.3vw;
 
       .sized-box-height-132 {
         height: 6.87vw;
