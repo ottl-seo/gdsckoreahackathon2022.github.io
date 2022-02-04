@@ -1,10 +1,9 @@
 import * as React from 'react';
-
 import styled from 'styled-components';
 import MOCK_IMG from '../img/mockup.png';
 
 const Wrapper = styled.div`
-  .top-team {
+  .grand-team {
     height: 51.7vw;
 
     .project-thumbnail {
@@ -114,15 +113,12 @@ const Wrapper = styled.div`
     }
   }
 `;
-const TopTeam = () => {
+const GrandTeam = () => {
   return (
     <Wrapper>
-      <div className="grade-container top-team">
+      <div className="grade-container grand-team">
         <div className="blank-space"></div>
         <div className="content-container">
-          <div className="project-thumbnail">
-            <img src={MOCK_IMG} />
-          </div>
           <div className="project-content">
             <div className="team-name-container">
               <div className="sized-box-height-300"></div>
@@ -145,10 +141,13 @@ const TopTeam = () => {
             </div>
           </div>
         </div>
+        <div className="project-thumbnail">
+          <img src={MOCK_IMG} />
+        </div>
         <div className="blank-space"></div>
       </div>
     </Wrapper>
   );
 };
 
-export default TopTeam;
+export default GrandTeam;

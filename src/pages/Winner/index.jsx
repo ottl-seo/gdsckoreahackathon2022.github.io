@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
 import TopTeam from './components/topTeam';
+import GrandTeam from './components/grandTeam';
 
 const Wrapper = styled.div`
   min-height: 100%;
@@ -33,7 +34,6 @@ const Wrapper = styled.div`
   }
 
   .content-container {
-    width: 90vw;
     height: 100%;
     border: 1px solid rgba(200, 200, 200, 0.5);
     border-left: none;
@@ -52,6 +52,9 @@ const Index = () => {
       <div className="top-padding" />
       <Fade duration={2000}>
         <TopTeam></TopTeam>
+      </Fade>
+      <Fade duration={2000}>
+        <GrandTeam></GrandTeam>
       </Fade>
     </Wrapper>
   );
