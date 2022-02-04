@@ -471,7 +471,7 @@ const staffData6=[
   
   {
     img: HYU_L,
-    name: 'Changhyun Lee',
+    name: 'Changhyeon Yoon',
     role: 'GDSC HYU LEAD',
   },
 ];
