@@ -19,8 +19,8 @@ const Navigation = () => {
       <NavLink to="/hackathon" activeStyle={activeTab}>
         HACKATHON
       </NavLink>
-      <NavLink to="/winner" activeStyle={activeTab}>
-        WINNER
+      <NavLink to="/prize" activeStyle={activeTab}>
+        PRIZE
       </NavLink>
       <NavLink to="/staff" activeStyle={activeTab}>
         STAFF
