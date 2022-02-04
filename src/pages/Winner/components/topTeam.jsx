@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import MOCK_IMG from '../img/mockup.png';
 
 const Wrapper = styled.div`
-  .great-team {
+  .top-team {
     height: 51.7vw;
 
     .project-thumbnail {
@@ -115,7 +115,7 @@ const Wrapper = styled.div`
 const TopTeam = () => {
   return (
     <Wrapper>
-      <div className="grade-container great-team">
+      <div className="grade-container top-team">
         <div className="blank-space"></div>
         <div className="content-container">
           <div className="project-thumbnail">
