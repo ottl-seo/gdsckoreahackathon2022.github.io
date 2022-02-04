@@ -101,6 +101,7 @@ const Wrapper = styled.div`
         opacity: 1;
         display: flex;
         align-items: center;
+        background: #1d1d1d 0% 0% no-repeat padding-box;
 
         .github-link {
           padding-left: 25px;
