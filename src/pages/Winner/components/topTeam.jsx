@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import styled from 'styled-components';
-import MOCK_IMG from '../img/mockup.png';
+import { TopTeamInfo } from './prizeInfo';
 
 const Wrapper = styled.div`
   .top-team {
@@ -57,7 +57,7 @@ const Wrapper = styled.div`
       }
 
       .project-description {
-        text-align: left;
+        text-align: justify;
         font: normal normal normal 20px Hahmlet;
         letter-spacing: 0px;
         color: #7b7b7b;
@@ -122,24 +122,17 @@ const TopTeam = () => {
         <div className="blank-space"></div>
         <div className="content-container">
           <div className="project-thumbnail">
-            <img src={MOCK_IMG} />
+            <img src={TopTeamInfo.projectThumbnail} />
           </div>
           <div className="project-content">
             <div className="team-name-container">
               <div className="sized-box-height-300"></div>
-              <div className="team-name">Team Name</div>
+              <div className="team-name">{TopTeamInfo.teamName}</div>
               <div className="divider"></div>
-              <div className="team-member-list">asdfasdfdsfasd,asdadsf</div>
+              <div className="team-member-list">{TopTeamInfo.teamMembers.join(', ')}</div>
             </div>
             <div className="sized-box-height-48"></div>
-            <div className="project-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor
-              sit. Volutpat odio facilisis mauris sit amet massa. Commodo odio aenean sed adipiscing diam donec
-              adipiscing tristique. Mi eget mauris pharetra et. Non tellus orci ac auctor augue. Elit at imperdiet dui
-              accumsan sit. Ornare arcu dui vivamus arcu felis. Egestas integer eget aliquet nibh praesent. In hac
-              habitasse platea dictumst quisque sagittis purus. Pulvinar elementum integer enim neque volutpat ac.
-            </div>
+            <div className="project-description">{TopTeamInfo.projectDescription}</div>
             <div className="sized-box-height-78"></div>
             <div className="read-more">
               <div className="github-link">Read more</div>
