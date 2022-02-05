@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
 import TopTeam from './components/topTeam';
 import GrandTeam from './components/grandTeam';
+import ExcellentTeam from './components/ExcellentTeam';
 
 const Wrapper = styled.div`
   min-height: 100%;
@@ -43,6 +44,10 @@ const Wrapper = styled.div`
 
   .grade-container {
     display: flex;
+
+    .blank-space {
+      height: inherit;
+    }
   }
 `;
 
@@ -55,6 +60,9 @@ const Index = () => {
       </Fade>
       <Fade duration={2000}>
         <GrandTeam></GrandTeam>
+      </Fade>
+      <Fade duration={2000}>
+        <ExcellentTeam></ExcellentTeam>
       </Fade>
     </Wrapper>
   );
