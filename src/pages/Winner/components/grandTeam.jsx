@@ -1,13 +1,32 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { GrandTeamInfo } from './prizeInfo';
+import Mark from '../img/GrandTeamMark.png';
 
 const Wrapper = styled.div`
   .grand-team {
     height: 26vw;
+    width: 89.4vw;
+    display: flex;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+    border-left: none;
+    border-top: none;
+
+    .mark {
+      position: absolute;
+      left: 31.13vw;
+      top: 41.7px;
+      width: 146px;
+      height: 125px;
+
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
 
     .project-thumbnail {
-      width: 42.7vw;
+      width: 41.9vw;
       height: 100%;
       opacity: 1;
       z-index: -999;
@@ -20,6 +39,7 @@ const Wrapper = styled.div`
 
     .project-content {
       width: 47.3vw;
+      position: relative;
 
       .sized-box-height-132 {
         height: 6.87vw;
@@ -120,10 +140,13 @@ const GrandTeam = () => {
       {GrandTeamInfo.map((_, idx) => {
         return (
           <div key={`${idx}`}>
-            <div className="grade-container grand-team">
+            <div className="grade-container">
               <div className="blank-space"></div>
-              <div className="content-container">
+              <div className="grand-team">
                 <div className="project-content">
+                  <div className="mark">
+                    <img src={Mark} />
+                  </div>
                   <div className="team-name-container">
                     <div className="sized-box-height-132"></div>
                     <div className="team-name">{GrandTeamInfo[idx].teamName}</div>
@@ -137,9 +160,9 @@ const GrandTeam = () => {
                     <div className="github-link">Read more</div>
                   </div>
                 </div>
-              </div>
-              <div className="project-thumbnail">
-                <img src={GrandTeamInfo[idx].projectThumbnail} />
+                <div className="project-thumbnail">
+                  <img src={GrandTeamInfo[idx].projectThumbnail} />
+                </div>
               </div>
               <div className="blank-space"></div>
             </div>
