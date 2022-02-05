@@ -1,6 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { ExcellentTeamInfo } from './prizeInfo';
+import Mark from '../img/ExcellentTeamMark.png';
 
 const Wrapper = styled.div`
   .excellent-team {
@@ -11,6 +12,19 @@ const Wrapper = styled.div`
     border: 1px solid rgba(200, 200, 200, 0.5);
     border-left: none;
     border-top: none;
+
+    .mark {
+      position: absolute;
+      left: calc(20.62vw - 44px);
+      top: 41.7px;
+      width: 146px;
+      height: 125px;
+
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
 
     .project-content {
       .sized-box-height-132 {
@@ -45,6 +59,7 @@ const Wrapper = styled.div`
 
       .team-name-container {
         text-align: left;
+        position: relative;
         font: normal normal normal 40px/58px Hahmlet;
         letter-spacing: 0px;
         color: #ffffff;
@@ -133,6 +148,9 @@ const ExcellentTeam = () => {
             <div key={idx} className="excellent-team">
               <div className="project-content">
                 <div className="team-name-container">
+                  <div className="mark">
+                    <img src={Mark} />
+                  </div>
                   <div className="sized-box-height-132"></div>
                   <div className="team-name">{ExcellentTeamInfo[idx].teamName}</div>
                   <div className="divider"></div>
