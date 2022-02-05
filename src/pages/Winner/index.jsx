@@ -4,6 +4,7 @@ import Fade from 'react-reveal/Fade';
 import TopTeam from './components/topTeam';
 import GrandTeam from './components/grandTeam';
 import ExcellentTeam from './components/ExcellentTeam';
+import ParticipationTeam from './components/participationTeam';
 
 const Wrapper = styled.div`
   min-height: 100%;
@@ -63,6 +64,9 @@ const Index = () => {
       </Fade>
       <Fade duration={2000}>
         <ExcellentTeam></ExcellentTeam>
+      </Fade>
+      <Fade duration={2000}>
+        <ParticipationTeam></ParticipationTeam>
       </Fade>
     </Wrapper>
   );
