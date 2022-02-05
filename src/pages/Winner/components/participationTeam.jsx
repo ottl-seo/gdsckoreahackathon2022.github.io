@@ -1,6 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { ParticipationTeamInfo } from './prizeInfo';
+import Mark from '../img/ParticipationTeamMark.png';
 
 const Wrapper = styled.div`
   .participation-team {
@@ -9,6 +10,17 @@ const Wrapper = styled.div`
     border: 1px solid rgba(200, 200, 200, 0.5);
     border-left: none;
     border-top: none;
+
+    .mark {
+      width: 146px;
+      height: 125px;
+      margin-left: 4.73vw;
+
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
 
     .project-content {
       display: flex;
@@ -52,7 +64,7 @@ const Wrapper = styled.div`
         letter-spacing: 0px;
         color: #ffffff;
         opacity: 1;
-        margin-left: 16.92vw;
+        margin-left: 88px;
         margin-right: 3.38vw;
       }
 
@@ -135,6 +147,9 @@ const ExcellentTeam = () => {
             <div className="blank-space"></div>
             <div className="participation-team">
               <div className="project-content">
+                <div className="mark">
+                  <img src={Mark} />
+                </div>
                 <div className="team-name-container">
                   <div className="team-name">{ParticipationTeamInfo[idx].teamName}</div>
                   <div className="team-member-list">{ParticipationTeamInfo[idx].teamMembers.join(', ')}</div>
