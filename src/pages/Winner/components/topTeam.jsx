@@ -161,9 +161,11 @@ const TopTeam = () => {
             <div className="sized-box-height-48"></div>
             <div className="project-description">{TopTeamInfo.projectDescription}</div>
             <div className="sized-box-height-78"></div>
-            <div className="read-more">
-              <div className="github-link">Read more</div>
-            </div>
+            <a href={TopTeamInfo.githubRepo}>
+              <div className="read-more">
+                <div className="github-link">Read more</div>
+              </div>
+            </a>
           </div>
         </div>
         <div className="blank-space"></div>

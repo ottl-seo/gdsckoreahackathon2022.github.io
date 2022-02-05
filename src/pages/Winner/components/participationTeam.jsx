@@ -155,9 +155,11 @@ const ExcellentTeam = () => {
                   <div className="team-member-list">{ParticipationTeamInfo[idx].teamMembers.join(', ')}</div>
                   <div className="sized-box-height-44"></div>
                   <div className="sized-box-height-44"></div>
-                  <div className="read-more">
-                    <div className="github-link">Read more</div>
-                  </div>
+                  <a href={ParticipationTeamInfo[idx].githubRepo}>
+                    <div className="read-more">
+                      <div className="github-link">Read more</div>
+                    </div>
+                  </a>
                 </div>
                 <div className="project-thumbnail">
                   <img src={ParticipationTeamInfo[idx].projectThumbnail} />

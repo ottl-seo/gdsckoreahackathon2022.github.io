@@ -156,9 +156,11 @@ const GrandTeam = () => {
                   <div className="sized-box-height-48"></div>
                   <div className="project-description">{GrandTeamInfo[idx].projectDescription}</div>
                   <div className="sized-box-height-20"></div>
-                  <div className="read-more">
-                    <div className="github-link">Read more</div>
-                  </div>
+                  <a href={GrandTeamInfo[idx].githubRepo}>
+                    <div className="read-more">
+                      <div className="github-link">Read more</div>
+                    </div>
+                  </a>
                 </div>
                 <div className="project-thumbnail">
                   <img src={GrandTeamInfo[idx].projectThumbnail} />

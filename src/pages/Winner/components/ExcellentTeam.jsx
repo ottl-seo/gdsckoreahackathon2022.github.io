@@ -163,9 +163,11 @@ const ExcellentTeam = () => {
                 <div className="sized-box-height-48"></div>
                 <div className="project-description">{ExcellentTeamInfo[idx].projectDescription}</div>
                 <div className="sized-box-height-44"></div>
-                <div className="read-more">
-                  <div className="github-link">Read more</div>
-                </div>
+                <a href={ExcellentTeamInfo[idx].githubRepo}>
+                  <div className="read-more">
+                    <div className="github-link">Read more</div>
+                  </div>
+                </a>
               </div>
             </div>
           );
