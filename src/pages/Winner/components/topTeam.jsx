@@ -2,14 +2,36 @@ import * as React from 'react';
 
 import styled from 'styled-components';
 import { TopTeamInfo } from './prizeInfo';
+import Mark from '../img/topTeamMark.png';
 
 const Wrapper = styled.div`
   .top-team {
     height: 51.7vw;
 
+    .mark {
+      position: relative;
+      left: 31.71vw;
+      top: 3.22vw;
+      width: 193px;
+      height: 165px;
+
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
+
+    .project-wrapper {
+      width: 90vw;
+      display: flex;
+      border: 1px solid rgba(200, 200, 200, 0.5);
+      border-left: none;
+      border-top: none;
+    }
+
     .project-thumbnail {
-      width: 45vw;
       height: 100%;
+      width: 45vw;
       opacity: 1;
 
       img {
@@ -19,8 +41,6 @@ const Wrapper = styled.div`
     }
 
     .project-content {
-      width: 45vw;
-
       .sized-box-height-300 {
         height: 15.6vw;
         max-height: 300px;
@@ -28,6 +48,10 @@ const Wrapper = styled.div`
 
       .sized-box-height-48 {
         height: 2.5vw;
+      }
+
+      .sized-box-height-62 {
+        height: 3.22vw;
       }
 
       .sized-box-height-78 {
@@ -120,11 +144,14 @@ const TopTeam = () => {
     <Wrapper>
       <div className="grade-container top-team">
         <div className="blank-space"></div>
-        <div className="content-container">
+        <div className="project-wrapper">
           <div className="project-thumbnail">
             <img src={TopTeamInfo.projectThumbnail} />
           </div>
           <div className="project-content">
+            <div className="mark">
+              <img src={Mark} />
+            </div>
             <div className="team-name-container">
               <div className="sized-box-height-300"></div>
               <div className="team-name">{TopTeamInfo.teamName}</div>
