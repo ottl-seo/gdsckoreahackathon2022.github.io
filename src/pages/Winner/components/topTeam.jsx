@@ -33,11 +33,8 @@ const Wrapper = styled.div`
       height: 100%;
       width: 45vw;
       opacity: 1;
-
-      img {
-        width: inherit;
-        height: inherit;
-      }
+      display: flex;
+      overflow: hidden;
     }
 
     .project-content {

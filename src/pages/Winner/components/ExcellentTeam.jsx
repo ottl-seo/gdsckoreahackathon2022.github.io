@@ -50,9 +50,11 @@ const Wrapper = styled.div`
         max-height: 20.78vw;
         opacity: 1;
         z-index: -999;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
 
         img {
-          width: inherit;
           height: inherit;
         }
       }

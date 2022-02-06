@@ -6,7 +6,7 @@ import Mark from '../img/GrandTeamMark.png';
 const Wrapper = styled.div`
   .grand-team {
     height: 26vw;
-    width: 89.4vw;
+    width: 90vw;
     display: flex;
     border: 1px solid rgba(200, 200, 200, 0.5);
     border-left: none;
@@ -26,15 +26,14 @@ const Wrapper = styled.div`
     }
 
     .project-thumbnail {
-      width: 41.9vw;
+      width: 42.7vw;
       height: 100%;
       opacity: 1;
       z-index: -999;
-
-      img {
-        width: inherit;
-        height: inherit;
-      }
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      border-left: 1px solid rgba(200, 200, 200, 0.5);
     }
 
     .project-content {
