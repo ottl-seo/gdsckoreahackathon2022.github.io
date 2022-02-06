@@ -1,20 +1,5 @@
-# GDSC 해커톤 홈페이지
+# GDSC Winter Hack: Play Your Stay 🎉
+2022.02.04 ~ 2022.02.05 staff로 참여했습니다✌    
 
-### package 설치
-
-```
-npm install
-```
-
-### 프론트 서버 시작
-
-```
-npm start
-```
-
-#### 폰트가이드
-
-```
-font-family: 'Hahmlet', serif;
-font-family: 'Roboto', sans-serif;
-```
+### 🎉[공식 홈페이지](https://gdsckoreahackathon2022.github.io/#/)
+### 🎉[Github](https://github.com/gdsckoreahackathon2022)
